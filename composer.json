@@ -1,0 +1,12 @@
+{
+  "name": "sodyxiezhen/nonce",
+  "description": "create nonce string by sody",
+  "require": {
+    "php": ">=5.4.0",
+  },
+  "autoload": {
+    "psr-4": {
+      "sody\\nonce": "src/"
+    }
+  }
+}
