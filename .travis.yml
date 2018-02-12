@@ -1,0 +1,9 @@
+language: php
+php: 
+  - '5.4'
+  - '7.1'
+sudo: true
+install: 
+  - composer install
+script:
+  - vendor/bin/phpunit test/ 
